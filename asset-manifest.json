@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/finale/static/css/main.073c9b0a.css",
+    "main.js": "/finale/static/js/main.4b000dc2.js",
+    "static/js/787.c1a64ea8.chunk.js": "/finale/static/js/787.c1a64ea8.chunk.js",
+    "static/media/logo.svg": "/finale/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/finale/index.html",
+    "main.073c9b0a.css.map": "/finale/static/css/main.073c9b0a.css.map",
+    "main.4b000dc2.js.map": "/finale/static/js/main.4b000dc2.js.map",
+    "787.c1a64ea8.chunk.js.map": "/finale/static/js/787.c1a64ea8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.4b000dc2.js"
+  ]
+}
