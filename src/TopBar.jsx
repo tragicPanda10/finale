@@ -7,9 +7,9 @@ export default function TopBar() {
     return(
         <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#">TragicPanda10</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
+          <Navbar.Brand href="https://tragicpanda10.github.io/finale/">TragicPanda10</Navbar.Brand>
+          <Nav className="ms-auto">
+            <Nav.Link href="https://tragicpanda10.github.io/finale/">Home</Nav.Link>
             <Nav.Link href="#features">About Me</Nav.Link>
             <Nav.Link href="#pricing">Learn More</Nav.Link>
           </Nav>
