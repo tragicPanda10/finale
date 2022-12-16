@@ -32,7 +32,7 @@ export default function DisplayGrid() {
                     <PortPiece
                     name = "Development" 
                     source = "/images/develop.png"
-                    website='https://tragicpanda10.github.io/development/' />
+                    website='https://tragicpanda10.github.io/development-showcase/' />
                 </Col>
             </Row>
         </Container>

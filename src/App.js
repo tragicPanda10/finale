@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 function App() {
   return (
@@ -26,33 +28,51 @@ function App() {
           </Row>
       </Container>
       <Container style={{height:'10vh'}}/>
-      <Container fluid> 
+
+
+      <Container fluid id="about"> 
         <Row className='row'>
           <Col>
-            <Image roundedCircle style={{width:'auto', height:'400px'}} className='shadow' src={process.env.PUBLIC_URL + '/images/panda.jpg'} />
+            <Image roundedCircle style={{width:'auto', height:'300px'}} className='shadow' src={process.env.PUBLIC_URL + '/images/panda.jpg'} />
             <div className='mt-3'>
               Currently a student at Brown University studying computer science.
             </div>
           </Col>
           <Col>
-            <div className='fs-4 text-start'>
-              Hi! I'm a panda from the New England area with a fascination around
-              web development and computer science. If you don't see me in the library, 
-              I'm probably catching up on sleep or going out to get food.  
-            </div>
+            <div className='fs-4 text-start text-center'>
+              <div className="mb-5 titling">
+                Proficiencies:
+              </div>
+
+            <Row className='row'>
+               <Card className="me-2" style={{width:'240px', }}>
+              <ListGroup variant="flush">
+                <ListGroup.Item>Storyboarding</ListGroup.Item>
+                <ListGroup.Item>User Testing</ListGroup.Item>
+                <ListGroup.Item>Balsamiq</ListGroup.Item>
+                <ListGroup.Item>Figma</ListGroup.Item>
+              </ListGroup>
+            </Card>
+            <Card style={{width:'240px', }}>
+              <ListGroup variant="flush">
+                <ListGroup.Item>HTML</ListGroup.Item>
+                <ListGroup.Item>CSS</ListGroup.Item>
+                <ListGroup.Item>React</ListGroup.Item>
+                <ListGroup.Item>Flutter</ListGroup.Item>
+              </ListGroup>
+              </Card>
+            </Row>
+           </div>
+            
           </Col>
         </Row>
       </Container>
 
-      <Container style={{height:'10vh'}}/>
-      <div className='display-4 m-3'>
+      <Container id='projects' style={{height:'10vh'}}/>
+      <div className='titling m-3'>
         Check out some of my projects here!
       </div>
       <DisplayGrid />
-      <div className='d-flex justify-content-between'>
-        <Image style={{width:'auto', height:'400px'}} src={process.env.PUBLIC_URL + '/images/bamboo.png'}/>
-        <Image style={{width:'auto', height:'400px'}} src={process.env.PUBLIC_URL + '/images/bamboo2.png'}/>
-      </div>
     </div>
   );
 }

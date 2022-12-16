@@ -19,6 +19,11 @@
 
 }
 
+.titling {
+  font-size:2rem;
+  color:rgb(1, 39, 108);
+}
+
 .desc {
   max-width:50vw;
 }
